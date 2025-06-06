@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#texto1{
+    display: none;
+}
+
+img{
+    display: none;
+}
+
+a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
