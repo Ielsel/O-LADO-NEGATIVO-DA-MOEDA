@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#texto{
+    font-size: 25px;
+}
+
+#texto1{
+    display: block;
+    color: #e50914;
+    font-family: "chiller";
+    font-size: 43px;
+}
+
+img{
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
