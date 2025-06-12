@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-#texto{
+#headText{
     font-size: 25px;
 }
 
-#texto1{
+#subText{
     display: block;
     color: #e50914;
     font-family: "chiller";
