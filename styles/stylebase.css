@@ -1,27 +1,102 @@
 @charset "UTF-8";
 
-body{
-    background-color: #3B3B3B;
+/*@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');*/
+
+@font-face {
+    font-family: 'Pixel-game';
+    src: url('../assets/fonts/Jersey10-Regular.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Pixel-game' ,Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+        to right,
+        #1e1e1e 0%,
+        #2a2a2a 25%,
+        #3b3b3b 50%,
+        #2a2a2a 75%,
+        #1e1e1e 100%
+    );
     color: #D1D1D1;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 900px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    background-color: #3B3B3B;
+}
+
+
+
+main{
+    margin: 0px 20px 20px 10px;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    display: block;
 }
 
 h1{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.2em;
+    -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.664);
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
 
 p{
     color: #D1D1D1;
-    font-size: 25px;
+    font-size: 1.5em;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
 }
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
 
 button{
     background-color: #D1D1D1;
     color: #3B3B3B;
-    font-size: 15px;
+    font-size: 30px;
     border-color: white;
-    padding-right: 20px;
-    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+button:active{
+    transform: scale(0.80);
+    transition: 0.3s;
+    box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
 }

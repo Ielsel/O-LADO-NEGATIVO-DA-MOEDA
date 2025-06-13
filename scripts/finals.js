@@ -2,7 +2,7 @@ var final = localStorage.getItem("final");
 var headTitle = document.getElementById("headTitle");
 var headText = document.getElementById("headText");
 var subText = document.getElementById("subText");
-var image = document.getElementById("image1");
+var image = document.getElementById("image");
 var Option1 = document.getElementById("Option1");
 var Option2 = document.getElementById("Option2");
 
@@ -13,7 +13,6 @@ switch (final){
         subText.innerHTML = "VOCÊ VENCEU!<br>&#x1F601; &#x1F44F; &#x1F44F"
         Option2.innerHTML = "CONTINUAR";
         Option1.style.display = "none";
-        subText.style.fontFamily = "lucida console";
         subText.style.color = "green";
         image.src = "https://i.imgur.com/u62ADXX.jpg";
         break;
@@ -52,8 +51,7 @@ switch (final){
         subText.innerHTML = "VOCÊ VENCEU!<br>&#x1F601; &#x1F44F; &#x1F44F;";
         Option2.innerHTML = "CONTINUAR";
         Option1.style.display = "none";
-        subText.style.fontFamily = "lucida console";
-        subText.style.color = "green";
+        subText.style.color = "#16F055";
         image.src = "https://i.imgur.com/pfR9fBr.jpg";
         break;
 

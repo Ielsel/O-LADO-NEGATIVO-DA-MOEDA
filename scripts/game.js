@@ -41,7 +41,7 @@ function scene1(){
     headTitle.innerHTML = "SEGREDO REVELADO";
     headText.innerHTML = "Com o passar do tempo, a família de Gabriel desconfia do fluxo de dinheiro entrando em sua casa, investigam de onde ele vem. Quando descobrem, decepcionados, pedem para que Gabriel pare de vender drogas.<br>Gabriel encontra-se em um dilema: Caso pare, talvez não tenha dinheiro nem para comer ou caso continue, é possivel que seja pego pela polícia e assim irá entristecer sua família ainda mais.<p> Sabendo disso, o que Gabriel decide fazer?";
     Option1.innerHTML = "PARAR DE VENDER DROGAS";
-    Option2.innerHTML = "CONTINUAR VENDENDO SENDO MAIS DISCRETO";
+    Option2.innerHTML = "CONTINUAR VENDENDO";
 }
 
 function decision1(option){
