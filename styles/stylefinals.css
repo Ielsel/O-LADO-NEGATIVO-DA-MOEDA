@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pixel-game';
+    src: url('../assets/fonts/Jersey10-Regular.ttf') format('truetype');
+}
+
+#headText{
+    font-size: 25px;
+}
+
+#subText{
+    display: block;
+    color: #e50914;
+    font-size: 43px;
+    text-align: center;
+    -webkit-text-stroke: 0.5px black;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
