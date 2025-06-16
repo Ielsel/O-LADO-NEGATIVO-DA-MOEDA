@@ -13,7 +13,7 @@
 
  ## ▶️ Como jogar
  <ol>
-    <li>Acesse o jogo diretamente neste link: <a href="https://ielsel.github.io/O-LADO-NEGATIVO-DA-MOEDA/">O Lado Negativo da Moeda</a></li>v
+    <li>Acesse o jogo diretamente neste link: <a href="https://ielsel.github.io/O-LADO-NEGATIVO-DA-MOEDA/">O Lado Negativo da Moeda</a></li>
     <li>Aplique suas escolhas conforme as situações apresentadas.</li>
     <li>Cada escolha altera o desenvolvimento da história, levando a diferentes finais.</li>
     <li>Leia atentamente as opções e escolha com sabedoria para conduzir o destino de Gabriel.</li>
@@ -58,6 +58,6 @@ Desenvolvido pela equipe: Leslei Almeida Lima, Henrique Cardoso, Júlia Vitória
 
 Continuado por: Leslei Almeida Lima.
 
-Como projeto do CUrso Técnico Integrado ao ENsino Médio no IFB.
+Como projeto do Curso Técnico Integrado ao ENsino Médio no IFB.
 <hr>
 Boa sorte, bons jogos e que suas escolhas guiem Gabriel ao seu melhor destino!
